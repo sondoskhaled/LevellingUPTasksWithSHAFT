@@ -2,7 +2,7 @@ name: E2E Local Tests
 
 on:
   schedule:
-    - cron: '00 1 * * *' // 1:00 AM UTC //
+    - cron: '00 1 * * *'
   workflow_dispatch:
 
 env:
