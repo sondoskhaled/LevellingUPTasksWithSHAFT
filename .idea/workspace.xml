@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c09aeecc-1dc0-47e1-8a7f-691ab4f7d56a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-06_18-36-37-927_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-06_19-08-28-658_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-06_19-21-01-532_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-06_19-23-24-787_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_18-49-19-765_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_19-05-50-101_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_19-12-01-552_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_19-17-54-095_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_20-23-01-476_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_20-28-21-199_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-07_20-54-35-330_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_11-00-47-683_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_11-03-07-006_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_11-08-22-840_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_11-11-30-254_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_11-13-11-831_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_12-04-47-265_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_12-43-06-836_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-08_13-26-54-231_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_20-54-30-426_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_20-58-59-896_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-02-04-651_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-02-57-106_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-28-17-441_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-31-56-431_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-39-55-901_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-43-28-273_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_21-49-02-152_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_22-05-30-427_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_22-13-58-995_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-16_22-21-58-395_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_10-52-37-452_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-19-32-991_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-22-36-979_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-25-54-630_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-26-53-948_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-29-18-171_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-30-20-686_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-31-11-590_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-34-03-112_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-34-45-095_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-36-37-669_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-37-29-329_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-39-07-038_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-42-18-422_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-09-17_11-43-03-774_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/021d48d7-6cab-4667-92eb-653e7c83d678-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/115aedf3-41e9-490c-8340-52e71e97502e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20c04a44-7e96-4c3a-a92f-977dbaf71153-attachment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2d0db657-a3bd-42b1-9c01-74925a1001e2-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/33a334b6-ab0e-487c-bece-b0c121c9ca3d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3c894976-699a-4497-84e0-787a2bac548b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3e665791-baac-4ae7-969c-0876a451c4b2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3f203d89-ebb6-4924-ad5b-cd4947db086d-attachment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/455fa906-b0dd-430b-abdd-3470d644c6ea-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/45d6c688-e84c-400a-a4d9-adc18b7583cb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71af96a1-ebca-4a27-b0f9-646625090532-attachment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f179948-e06e-43cc-84a5-798a7ae265f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/caadc3cb-efe2-418f-9029-8955ccc3ddf4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d92b09cd-7265-41de-a720-81bbf45be92f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/db83fffd-964b-4695-8d4b-1d3d50ff5c16-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd50cbaf-8d9f-472f-9fe6-6179d55ef430-attachment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e999ef6f-20c1-4485-b1ae-1c7d0c9b4a24-attachment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/environment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f9ac3e22-ea1e-4ce3-af1d-fb9678d6ead2-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/execution-summary/ExecutionSummaryReport_17-09-2024_11-43-02-0372-AM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_allure_report.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levellingUpPages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levellingUpPages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/TestNG.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/custom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/customWebdriverCapabilities.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levellingUpTests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levellingUpTests/Task1Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levellingUpTests/Task2Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levellingUpTests/Task3Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/services/io.qameta.allure.listener.ContainerLifecycleListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/services/io.qameta.allure.listener.FixtureLifecycleListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/services/io.qameta.allure.listener.StepLifecycleListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/services/io.qameta.allure.listener.TestLifecycleListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/services/org.testng.ITestNGListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/docker-compose/selenium4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/simpleJSON.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2lhcZVCr4DiDfQnQtdvDIc3zX7u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [-Dtest=Task1Tests...].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [clean,compile].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [clean,install].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [clean].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [test...].executor": "Run",
+    "Maven.LevellingUPTasksWithSHAFT [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/sondos/Documents/waffarha/sondos/Demo/LevellingUPTasksWithSHAFT/testng.xml.executor": "Run",
+    "TestNG.Task1Tests.checkPageTitleIsCorrect.executor": "Run",
+    "TestNG.Task2Tests.checkLogoIsDisplayed.executor": "Run",
+    "TestNG.Task3Tests.checkFirstSearchResultIsAsExpected.executor": "Run",
+    "TestNG.Task3Tests.executor": "Run",
+    "TestNG.TestClass.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sondos/Documents/waffarha/sondos/Demo/LevellingUPTasksWithSHAFT",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="levellingUpTests" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="mvn -Dtest=Task1Tests test " />
+      <command value="mvn test -DsuiteXmlFile=src/test/resources/TestSuite.xml " />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.Task1Tests.checkPageTitleIsCorrect">
+    <configuration name="Task1Tests.checkPageTitleIsCorrect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LevellingUPTasksWithSHAFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levellingUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levellingUpTests" />
+      <option name="MAIN_CLASS_NAME" value="levellingUpTests.Task1Tests" />
+      <option name="METHOD_NAME" value="checkPageTitleIsCorrect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Tests.checkLogoIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LevellingUPTasksWithSHAFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levellingUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levellingUpTests" />
+      <option name="MAIN_CLASS_NAME" value="levellingUpTests.Task2Tests" />
+      <option name="METHOD_NAME" value="checkLogoIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LevellingUPTasksWithSHAFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levellingUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levellingUpTests" />
+      <option name="MAIN_CLASS_NAME" value="levellingUpTests.Task3Tests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Tests.checkFirstSearchResultIsAsExpected" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LevellingUPTasksWithSHAFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levellingUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levellingUpTests" />
+      <option name="MAIN_CLASS_NAME" value="levellingUpTests.Task3Tests" />
+      <option name="METHOD_NAME" value="checkFirstSearchResultIsAsExpected" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/sondos/Documents/waffarha/sondos/Demo/LevellingUPTasksWithSHAFT/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LevellingUPTasksWithSHAFT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Task1Tests.checkPageTitleIsCorrect" />
+        <item itemvalue="TestNG./Users/sondos/Documents/waffarha/sondos/Demo/LevellingUPTasksWithSHAFT/testng.xml" />
+        <item itemvalue="TestNG.Task3Tests" />
+        <item itemvalue="TestNG.Task3Tests.checkFirstSearchResultIsAsExpected" />
+        <item itemvalue="TestNG.Task2Tests.checkLogoIsDisplayed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c09aeecc-1dc0-47e1-8a7f-691ab4f7d56a" name="Changes" comment="" />
+      <created>1725635807596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725635807596</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.ws.rs:javax.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:io.qameta.allure:allure-java-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

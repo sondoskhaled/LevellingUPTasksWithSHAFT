@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                       Test Method: 'levellingUpTests.Task1Tests.checkPageTitleIsCorrect'                                       
+                                            Test Description: 'Check that the page title is correct'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://duckduckgo.com/" @18-09-2024 12:10:44.0710 PM
+[ReportManager] Initial URL: "about:blank" @18-09-2024 12:10:44.0823 PM
+[ReportManager] Navigate to url "https://duckduckgo.com/". @18-09-2024 12:10:47.0425 PM
+[ReportManager] Verify that the browser title is equal to "DuckDuckGo — Privacy, simplified.". @18-09-2024 12:10:47.0458 PM
+[ReportManager] Expected "DuckDuckGo — Privacy, simplified.", and actual "DuckDuckGo — Privacy, simplified." @18-09-2024 12:10:47.0578 PM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_12-11-02-662_18092024' @18-09-2024 12:11:02.0688 PM
+[ReportManager] Expected "DuckDuckGo — Privacy, simplified.", and actual "DuckDuckGo — Privacy, simplified." @18-09-2024 12:11:02.0710 PM
+[ReportManager] Verification passed @18-09-2024 12:11:02.0711 PM
+[ReportManager] Verification passed @18-09-2024 12:11:02.0739 P
