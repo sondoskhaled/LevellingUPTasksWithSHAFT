@@ -32,8 +32,6 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=MicrosoftEdge" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
-      - name: Generate Allure Report
-        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -63,8 +61,6 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=MAC" "-DtargetBrowserName=safari" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
-      - name: Generate Allure Report
-        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -94,8 +90,6 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=chrome" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
-      - name: Generate Allure Report
-        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -125,8 +119,6 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=MAC" "-DtargetBrowserName=chrome" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
-      - name: Generate Allure Report
-        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -156,8 +148,6 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=firefox" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
-      - name: Generate Allure Report
-        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
