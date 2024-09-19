@@ -1,4 +1,4 @@
-name: E2E Tests
+name: E2E Remote Tests
 
 on:
   pull_request:
@@ -10,7 +10,42 @@ on:
 env:
   GLOBAL_TESTING_SCOPE: "levellingUpTests.Task1Tests"
 jobs:
-
+  Ubuntu_APIs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'zulu'
+          cache: 'maven'
+      - name: Set up Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.5
+      - name: Run tests
+        continue-on-error: true
+        run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=DYNAMIC" "-DsetParallel=METHODS" "-DgenerateAllureReportArchive=true" "-Dtest=${GLOBAL_TESTING_SCOPE}"
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: false
+          files: ./target/jacoco/jacoco.xml
+          verbose: true
+      - name: Upload Allure Report as Pipeline Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ubuntu_APIs_Allure
+          path: "allure-report/*.html"
+      - name: Test Summary
+        uses: test-summary/action@v2
+        with:
+          paths: "target/surefire-reports/junitreports/TEST-*.xml"
+        if: always()
   Ubuntu_Firefox_Grid:
     needs: [ Ubuntu_APIs ]
     runs-on: ubuntu-latest
