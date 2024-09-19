@@ -32,12 +32,14 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=MicrosoftEdge" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
+      - name: Generate Allure Report
+        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Edge_Local_Allure
-          path: "allure-report/windows-edge/*.html"
+          path: "allure-report/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -61,12 +63,14 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=MAC" "-DtargetBrowserName=safari" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
+      - name: Generate Allure Report
+        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: MacOSX_Safari_Local_Allure
-          path: "allure-report/mac-safari/*.html"
+          path: "allure-report/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -90,12 +94,14 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=chrome" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
+      - name: Generate Allure Report
+        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Chrome_Local_Allure
-          path: "allure-report/windows-chrome/*.html"
+          path: "allure-report/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -119,12 +125,14 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=MAC" "-DtargetBrowserName=chrome" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
+      - name: Generate Allure Report
+        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: MacOSX_Chrome_Local_Allure
-          path: "allure-report/mac-chrome/*.html"
+          path: "allure-report/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -148,12 +156,14 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: mvn -e test "-DdefaultElementIdentificationTimeout=5" "-DsetParallelMode=NONE" "-DretryMaximumNumberOfAttempts=1" "-DexecutionAddress=local" "-DtargetOperatingSystem=WINDOWS" "-DtargetBrowserName=firefox" "-DheadlessExecution=true" "-DgenerateAllureReportArchive=true" "-Dtest=levellingUpTests.Task1Tests"
+      - name: Generate Allure Report
+        run: mvn allure:report
       - name: Upload Allure Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Firefox_Local_Allure
-          path: "allure-report/windows-firefox/*.html"
+          path: "allure-report/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
