@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Edge_Local_Allure
-          path: "allure-report/*.html"
+          path: "allure-report/windows-edge/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -66,7 +66,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MacOSX_Safari_Local_Allure
-          path: "allure-report/*.html"
+          path: "allure-report/mac-safari/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -95,7 +95,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Chrome_Local_Allure
-          path: "allure-report/*.html"
+          path: "allure-report/windows-chrome/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -124,7 +124,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MacOSX_Chrome_Local_Allure
-          path: "allure-report/*.html"
+          path: "allure-report/mac-chrome/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
@@ -153,7 +153,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Firefox_Local_Allure
-          path: "allure-report/*.html"
+          path: "allure-report/windows-firefox/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
