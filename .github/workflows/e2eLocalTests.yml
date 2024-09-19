@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Windows_Edge_Local_Allure
-          path: "allure-report/**/*.html"
+          path: "allure-report/windows-edge/**/*.html"
       - name: Test Summary
         uses: test-summary/action@v2
         with:
